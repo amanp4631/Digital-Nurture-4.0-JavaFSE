@@ -1,0 +1,23 @@
+Explain Big O notation and how it helps in analyzing algorithms.
+
+-Big O notation helps us in measuring the performance of an algorithm based on the input size we give. It helps us in determining how the code will perform as data increases, there are 2 factors according to which it rates the performance of an algorithm-
+1. Time (time taken by algorithm)
+2. space (memory used by the algorithm)
+
+
+Describe the best, average, and worst-case scenarios for search operations.
+
+- Best Case:
+	Linear search: item is at the first index → O(1)
+	Binary search: item is the middle element → O(1)
+- Average Case:
+	Linear search: O(n/2), simplified to O(n)
+	Binary search: O(log n)
+- Worst Case:
+	Linear search: item at the end or not found → O(n)
+	Binary search: recursively divide till 1 → O(log n)
+
+
+Discuss which algorithm is more suitable for your platform and why.
+
+Binary search is more suitable for my platform as in E-commerce database the products are usually stored in sorted manner according to their product ID or Name or some other attribute. Since, the database could be quite large the binary search will be quicker than the linear search.

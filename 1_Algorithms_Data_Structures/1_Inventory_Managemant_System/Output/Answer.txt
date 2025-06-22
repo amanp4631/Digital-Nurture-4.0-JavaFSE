@@ -1,0 +1,22 @@
+Explain why data structures and algorithms are essential in handling large inventories. 
+
+-In an inventory system, you deal with a large amount of items. The way you organize this data directly affects how quickly and efficiently you can add, search, update, or delete products. Optimal data structures can reduce time complexity and memory overhead, which is vital for scalability.
+
+
+Discuss the types of data structures suitable for this problem.
+
+-The suitable data structures for this problem are:
+
+1. HashMap -  Since HashMap makes it easy to search in O(1) time complexity, making it faster to search in a collection of large data that are usually stored in large inventories.
+
+2. ArrayList - Not better than HashMap but also helps in searching a lot, since it is stored in sequential manner in the memory.
+
+
+Analyze the time complexity of each operation (add, update, delete) in your chosen data structure.
+
+-Since in my case I am using HashMap to store data, Time complexity of each operation (add, update, delete) is O(1).
+
+
+Discuss how you can optimize these operations.
+
+-Since Time complexity of all the operations is O(1), it cannot be optimized any further. However, we can optimize the Hash functions we use to avoid collision in the memory.

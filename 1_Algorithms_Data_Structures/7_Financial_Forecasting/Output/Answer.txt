@@ -1,0 +1,13 @@
+Explain the concept of recursion and how it can simplify certain problems.
+
+-Recursion is when a function calls itself to solve a smaller piece of a larger problem. It's especially powerful for problems that can be divided into sub-problems with repeating steps, like computing Fibonacci numbers where the problem can be divided into sub-problem i.e. sum of previous 2 numbers is the new number. It can reduce line of code we need to write and simplify the problem as we just need to solve one sub-problem to get the whole solution.
+
+
+Discuss the time complexity of your recursive algorithm.
+
+-The recursive function I am using has time complexity of O(n), since it performs one recursive call for each year of forecasting.
+
+
+Explain how to optimize the recursive solution to avoid excessive computation.
+
+-To optimize this recursive function we just need to worry about one thing, i.e. Stack Overflow, to avoid this we can use iterative approach to the same problem. 
