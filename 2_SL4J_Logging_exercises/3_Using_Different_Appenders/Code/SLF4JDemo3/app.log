@@ -1,0 +1,6 @@
+14:57:53.336 [main] INFO  AppenderDemo - Logging to both console and file
+14:57:53.344 [main] DEBUG AppenderDemo - Debug message for deeper inspection
+14:57:53.345 [main] ERROR AppenderDemo - An error occurred during processing
+2025-06-29 15:01:23.623 [main] INFO  AppenderDemo - Logging to both console and file
+2025-06-29 15:01:23.625 [main] DEBUG AppenderDemo - Debug message for deeper inspection
+2025-06-29 15:01:23.626 [main] ERROR AppenderDemo - An error occurred during processing
