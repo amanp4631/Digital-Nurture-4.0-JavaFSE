@@ -1,0 +1,39 @@
+/* src/CountPeople.css */
+
+.main-container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: screen;
+  margin-top: 100px;
+  font-family: Arial, sans-serif;
+}
+
+.box {
+  text-align: center;
+  padding: 20px;
+}
+
+.entry-btn,
+.exit-btn {
+  padding: 10px 20px;
+  font-size: 16px;
+  font-weight: bold;
+  border: 2px solid black;
+  border-radius: 5px;
+  background-color: rgba(44, 221, 44, 0.637);
+  color: green;
+  cursor: pointer;
+  transition: all 0.2s ease-in-out;
+}
+
+.entry-btn:hover,
+.exit-btn:hover {
+  background-color: #e6ffe6;
+}
+
+p {
+  margin-top: 15px;
+  font-size: 18px;
+  font-weight: bold;
+}
